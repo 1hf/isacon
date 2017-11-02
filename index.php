@@ -11,13 +11,22 @@ $stdCode = $_POST["stdCode"];
 $phoneNumber = $_POST["phoneNumber"];
 $hospitalName = $_POST["hospitalName"];
 if($stdCode!='' && $phoneNumber==''){
-
+?>
+<script>alert('Please enter the phone number.');</script>
+<?php
+return false;
 }
 else if($stdCode=='' && $phoneNumber!=''){
-
+?>
+<script>alert('Please enter the STD code.');</script>
+<?php
+return false;
 }
 else if($mobile=='' && $stdCode=='' && $phoneNumber==''){
-
+?>
+<script>alert('Please enter the mobile number or the landline number with STD code.');</script>
+<?php
+return false;
 }else{
     //PHPMailer Object
 	$mail = new PHPMailer;
