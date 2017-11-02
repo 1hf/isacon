@@ -139,7 +139,6 @@ $hospitalName = "";
         </nav>
 
         <header class="head">
-
             <div class="row">
                 <div class="col-md-12"><div class="col-md-10  text-center top-banner">
                         <h3>Visit us @ Booth #124 to learn more about how #Masimo is changing the future of Healthcare!
@@ -155,28 +154,34 @@ $hospitalName = "";
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner" role="listbox">
-                    <!-- Slide One - Set the background image for this slide in the line below -->
+                    
                     <div class="carousel-item active">
                         <img src="img/emma.jpg" alt="EMMA" class="carousel-img">
                         <div class="carousel-caption d-none d-md-block">
+
                             <!--<h3 style="color:red;">EMMA</h3>
                             <p>Portable Real-time Capnography</p>-->
+
                         </div>
                     </div>
-                    <!-- Slide Two - Set the background image for this slide in the line below -->
+                    
                     <div class="carousel-item">
                         <img src="img/ROOTSpHbMonitor.jpg" alt="ROOTSpHbMonitor" class="carousel-img">
                         <div class="carousel-caption d-none d-md-block">
+
                             <!--<h3 style="color:red;">Track Hemoglobin Changes in Real Time</h3>
                             <p>with Noninvasive and Continuous Hemoglobin (SpHb) Monitoring</p>-->
+
                         </div>
                     </div>
-                    <!-- Slide Three - Set the background image for this slide in the line below -->
+                    
                     <div class="carousel-item">
                         <img src="img/RootSedlineBrainO3.jpg" alt="RootSedlineBrain" class="carousel-img">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption d-none d-md-block">-->
+
                             <!--<h3 style="color:red;">Root with SedLine Brain Function Monitoring and O3 Regional Oximetry</h3>
                             <p>A More Complete Picture Starts With More Complete Data</p>-->
+
                         </div>
                     </div>
                 </div>
@@ -216,17 +221,17 @@ $hospitalName = "";
                                 <li id="li_1" >
                                     <label class="description" for="element_1">Name </label>
                                     <span>
-                                        <input id="fName" name= "fName" class="element text" maxlength="255" size="8" value="" required/>
-                                        <label>First</label>
+                                        <input id="element_1_1" name= "fName" class="element text" maxlength="255" size="8" value="" required/>
+                                        <label>First<font color="red">*</font></label>
                                     </span>
                                     <span>
                                         <input id="element_1_2" name= "lName" class="element text" maxlength="255" size="14" value=""/>
                                         <label>Last</label>
                                     </span> 
                                 </li>		<li id="li_2" >
-                                    <label class="description" for="element_2">Mobile Number </label>
+                                    <label class="description" for="element_2">Phone Number<font color="red">*</font> </label>
                                     <div>
-                                        <input id="element_2" name="mobile" class="element text medium" type="number" maxlength="255" value=""/> 
+                                        <input id="element_2" name="mobile" class="element text medium" type="text" maxlength="255" value="" required/> 
                                     </div> 
                                 </li>	<li id="li_3" >
                                     <label class="description" for="element_3">Landline Number </label>
@@ -244,9 +249,9 @@ $hospitalName = "";
                                         
                                     </span>
                                 </li>		<li id="li_4" >
-                                    <label class="description" for="element_3">Hospital </label>
+                                    <label class="description" for="element_3">Hospital<font color="red">*</font></label>
                                     <div>
-                                        <input id="element_3" name="hospitalName" class="element text" type="text" maxlength="255" size="14" value=""/> 
+                                        <input id="element_3" name="hospitalName" class="element text medium" type="text" maxlength="255" value="" required/> 
                                     </div> 
                                 </li>
 
