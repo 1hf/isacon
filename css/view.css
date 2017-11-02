@@ -336,8 +336,8 @@ input.text
 	color:#333;
 	font-size:100%;
 	margin:0;
-	padding:2px 0;        width: 350px;
-    max-width: 350px;
+	padding:2px 0;        width: 250px;
+    max-width: 250px;
 }
 
 input.file
