@@ -54,7 +54,7 @@
             <div class="row">
                 <div class="col-md-12"><div class="col-md-10  text-center top-banner">
                         <h3>Visit us @ Booth #124 to learn more about how #Masimo is changing the future of Healthcare!
-                            #masimoinnovates</h3>	
+                            #MasimoInnovates</h3>	
                     </div>
 
                 </div>
@@ -114,7 +114,7 @@
                 <div class="container">
                     <div id="form_container">
 
-                        <h2 class="h2">Register for a personalized demo and win Miller’s Anesthesia Book</h2>	
+                        <h2 class="h2">Register now for a personalized demo and a chance to win a Miller’s Anesthesia Book</h2>	
 
                     </div>
 
@@ -128,19 +128,17 @@
                             <ul >
 
                                 <li id="li_1" >
-                                    <label class="description" for="element_1">Name </label>
+                                    <label class="description" for="element_1">Name<font color="red">*</font></label>
                                     <span>
-                                        <input id="element_1_1" name= "FirstName" class="element text" maxlength="255" size="8" value="" required/>
-                                        <label>First<font color="red">*</font></label>
+                                        <input id="element_1_1" name= "FirstName" class="element text" maxlength="255" size="8" placeholder="First" style="width:150px; max-width:150px;" value="" required/>
                                     </span>
                                     <span>
-                                        <input id="element_1_2" name= "LastName" class="element text" maxlength="255" size="14" value=""/>
-                                        <label>Last</label>
+                                        <input id="element_1_2" name= "LastName" class="element text" maxlength="255" size="14" placeholder="Last" style="width:150px; max-width:150px;" value=""/>
                                     </span> 
                                 </li>		<li id="li_2" >
                                     <label class="description" for="element_2">Phone Number<font color="red">*</font> </label>
                                     <div>
-                                        <input id="element_2" name="PhoneNumber" class="element text medium" type="text" maxlength="255" value="" required/> 
+                                        <input id="element_2" name="PhoneNumber" class="element text medium" placeholder="(Area code) - (phone number)" type="text" maxlength="255" value="" required/> 
                                     </div> 
                                 </li>		<li id="li_3" >
                                     <label class="description" for="element_3">Hospital<font color="red">*</font></label>
@@ -148,8 +146,14 @@
                                         <input id="element_3" name="Hospital" class="element text medium" type="text" maxlength="255" value="" required/> 
                                     </div> 
                                 </li>
+				<li id="li_4" >
+                                    <label class="description" for="element_4">Comments</label>
+                                    <div>
+                                        <textarea rows="5" cols="39"></textarea> 
+                                    </div> 
+                                </li>
 
-                                <li class="buttons">
+                                <li class="buttons" style="margin-top: 5px;">
                                     <input type="hidden" name="form_id" value="56534" />
 
                                     <input id="saveForm" class="button" type="submit" name="submit" value="Submit" /> 
@@ -159,8 +163,8 @@
                         </form>
 
                     </div>
-                    <div class="col-md-6">
-                        <img src="img/millers-anesthesia.png" alt="" />
+                    <div class="col-md-6" style="margin-top: 25px;">
+                        <img src="img/millers-anesthesia.png" alt="" style="height: 350px;" />
                     </div>
                     <img id="bottom" src="img/bottom.png" alt="">
                 </div>
@@ -206,6 +210,10 @@
                 border-radius: 10px;
             }
             .h2{text-align:center;background-color:#fff;text-indent: 0px;}
+		label.description {font-weight: 500;}
+input.medium {
+    width: 80%;
+}
         </style>
 
 <!--<script>window.location = "index.php";</script> -->
